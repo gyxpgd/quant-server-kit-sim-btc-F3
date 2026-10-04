@@ -1,0 +1,30 @@
+{
+  "name": "okx-funding-f3-paper",
+  "package_version": "F3-paper-1-user-service.1",
+  "program_settings_version": "F3-paper-1",
+  "prepared_on": "2026-10-04",
+  "mode": "public-paper",
+  "exchange_orders_supported": false,
+  "api_credentials_required": false,
+  "virtual_capital_variants_usdt": [
+    20,
+    60
+  ],
+  "default_variant": "20u",
+  "service_name": "okx-funding-f3.service",
+  "service_scope": "user",
+  "installer_starts_or_enables_service": false,
+  "installer_uses_sudo": false,
+  "core_source_and_config_unchanged": true,
+  "linux_user_service_live_acceptance": "not_run",
+  "user_server_modified": false,
+  "offline_tests": {
+    "passed": 76,
+    "failed": 0,
+    "skipped": 0,
+    "python": "3.12.14",
+    "platform": "macOS",
+    "extracted_archive_tested": true
+  },
+  "github_workflow_run": false
+}

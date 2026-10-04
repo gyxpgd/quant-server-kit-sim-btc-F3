@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "start": "2023-08-01T00:00:00+08:00",
+  "end_exclusive": "2023-08-09T00:00:00+08:00",
+  "source": "Frozen F1 public historical data, previously researched",
+  "reference_sha256": "343a8b4d52d7ca492a2c6e2c89880d743febaaedeb6b279a49cd63036e15c2fb",
+  "rows": [
+    {
+      "capital": 20,
+      "passed": true,
+      "minutes": 11520,
+      "max_summary_difference": 0.0,
+      "restored_midway": true,
+      "end_equity": 19.97220656141883,
+      "events": 213
+    },
+    {
+      "capital": 60,
+      "passed": true,
+      "minutes": 11520,
+      "max_summary_difference": 0.0,
+      "restored_midway": true,
+      "end_equity": 59.9169210544225,
+      "events": 213
+    }
+  ],
+  "elapsed_seconds": 2.9833528750459664
+}

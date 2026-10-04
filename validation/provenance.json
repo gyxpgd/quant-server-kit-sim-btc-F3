@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "strategy": "F3",
+  "frozen_plan_sha256": "12319f051a7c4766257168e74a99b2cf1aa662ef1773cb25bda7fda11e7f2d3f",
+  "copied_reference_sha256": "343a8b4d52d7ca492a2c6e2c89880d743febaaedeb6b279a49cd63036e15c2fb",
+  "configurations_exactly_match_frozen_F3": [
+    20,
+    60
+  ],
+  "immutable_sources": [
+    ".research/okx-funding-f2-f4",
+    "outputs/okx-funding-f1",
+    "outputs/btc-v53-headless"
+  ]
+}

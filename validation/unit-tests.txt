@@ -1,0 +1,7 @@
+2026-10-04 · Final source ZIP extracted for verification
+macOS / Python 3.12.14
+Command: python3 -B -m unittest discover -s tests -q
+Ran 76 tests in 17.303s
+OK (0 failures, 0 skipped)
+Export test output path omitted: temporary test directory only.
+All service-manager commands in deployment tests were fakes; no user server was accessed.

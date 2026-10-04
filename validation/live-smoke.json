@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "scope": "Real public endpoints, fresh start, confirmed-minute advance and checkpoint restart; no orders",
+  "ticks": 10,
+  "transient_errors": [
+    "Server-time response too slow for a reliable timestamp",
+    "Server-time response too slow for a reliable timestamp"
+  ],
+  "directory": "/private/tmp/f3-live-smoke-h1z1shk1",
+  "status": {
+    "mode": "public-paper",
+    "strategy": "F3",
+    "start": 1790925360000,
+    "cursor": 1790925480000,
+    "health": {
+      "message": "等待已确认行情/结算等待期",
+      "observed": 1790925624478,
+      "state": "WAITING"
+    },
+    "account": {
+      "cash": 20.0,
+      "cursor": 1790925420000,
+      "force_close": false,
+      "next_entry": 1790925360000,
+      "open_position": null,
+      "pending": null,
+      "sequence": 0,
+      "summary": {
+        "account_halted": false,
+        "basis_pnl": 0.0,
+        "capital": 20.0,
+        "days": 0.001388888888888889,
+        "dust_cost": 0.0,
+        "end_bjt_exclusive": "2026-10-02T15:18:00+08:00",
+        "end_equity": 20.0,
+        "exit_reasons": {},
+        "fees_usdt_at_exit": 0.0,
+        "funding_fx_pnl": 0.0,
+        "funding_usdt_at_exit": 0.0,
+        "funding_usdt_on_receipt": 0.0,
+        "max_drawdown_pct": 0.0,
+        "max_residual_delta_pct": 0.0,
+        "minimum_collateral_ratio": null,
+        "naked_minutes": 0,
+        "net": 0.0,
+        "potential_liquidation_flags": 0,
+        "price_pnl": 0.0,
+        "principal_residual_price_pnl": 0.0,
+        "rejections": {},
+        "return_pct": 0.0,
+        "start_bjt": "2026-10-02T15:16:00+08:00",
+        "trades": 0,
+        "treasury_converted_usdt": 0.0,
+        "treasury_sales": 0
+      }
+    },
+    "statistics": {
+      "events": 0,
+      "minutes_by_classification": {
+        "observed": 2
+      },
+      "events_by_classification": {}
+    }
+  },
+  "same_boundary_restart_no_duplicates": true,
+  "source_identity": {
+    "paper.py": "464dc93e388cf772ea167794f61e83a901575d24ed798f4885995fce98c03e31",
+    "paper_engine.py": "871f20c7c1b9e8de647ed8362bc47aeb3a959b7b4757b6e598948958ec1fc335",
+    "public_data.py": "19212fa3982b2c6808bb5f900f097ad31c5d688c3d3640e03e5ece8a31e8177f",
+    "store.py": "591e6d55710f3b926358acd941d9069eabf0497e10fc1a7600c06d3dfc9be5f1",
+    "reference_engine.py": "343a8b4d52d7ca492a2c6e2c89880d743febaaedeb6b279a49cd63036e15c2fb",
+    "signals.py": "2200169a046319d43533169fc6a116b61bd005f0ce4cc595bbf0cf5c86dd1283",
+    "common.py": "b0879437a1219c27e4be4f656ecd90750f2e21f76b5e0266db504715a2fca15c"
+  }
+}
